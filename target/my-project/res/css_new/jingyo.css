@@ -1,0 +1,97 @@
+.nc-meta.jingyo-meta{
+	background-image: none;
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+}
+.nc-meta, .nc-key, .nc-pay{
+	width: 100%;
+}
+.ncs-goods-summary .name h1{
+	font-size: 18px;
+	color: #333;
+}
+.nc-detail-price strong {
+    font-size: 30px;
+    font-weight: 600;
+    color: #f4525d;
+    vertical-align: middle;
+}
+
+.nc-meta{
+	background-image: url(../images/bg-jingyo.png);
+	padding-top: 26px;
+	padding-bottom: 20px;
+	background-color: #f5f5f5;
+	background-position: right bottom;
+}
+.nc-key ul li.sp-txt a{
+	background-image: none;
+	height: auto;
+	width: auto;
+	border: 2px solid #f5f5f5;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	line-height: 28px;
+}
+.nc-key ul li.sp-txt a:hover{background-image: none;border: 2px solid #f0071c}
+.nc-key ul li{height: auto;
+	width: auto;    margin: 0 -10px 8px 20px;}
+.nc-key ul li.sp-txt a.hovered{
+	background-image: url(../images/ico-jing.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border: 2px solid #f0071c;
+	
+	}
+.nc-figure-input a .decrease {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.nc-figure-input a .increase {
+    margin-left: -1px;
+}
+.nc-figure-input input{margin-left: -1px;height:24px;line-height:24px}
+.smallImg{background-color: transparent;}
+.nc-figure-input a i{height:24px;
+line-height:24px;padding: 3px 4px 1px;}
+.nc-meta dl dt, .nc-key dl dt, .nc-pay dl dt{width: 75px;text-align: left;
+	padding-top: 3px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	padding-left: 40px;}
+.expanded .nc-goods-main.nc-goods-main{width: 100%;}
+.nc-s-c-s4 .content{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.expanded #main-nav{width:1200px;height:40px;}
+.tabbar ul{    height: 51px;border-bottom: solid 1px #ef1221;}
+
+.tabbar ul li a{    padding: 16px 34px;}
+
+.tabbar ul li.current a{    padding: 16px 34px;}
+.default{width:1100px; margin-left:auto; margin-right:auto}
+.price{ color:#e20b13}
+.nc-meta dl, .nc-key dl, .nc-pay dl{    margin-bottom: 2px;}
+.nc-btn a.buynow{    margin-left: 20px;}
+.nc-figure-input em {
+    color: #999;
+    padding-top: 10px;
+}
+.nc-figure-input1{padding-left: 120px}
+
+
+
+
+
+
+
+
+
+

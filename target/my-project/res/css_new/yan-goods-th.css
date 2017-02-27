@@ -1,0 +1,121 @@
+#yan-goods-th *{box-sizing: border-box;}
+.yan-goods-th {
+	width: 968px;
+	border: solid 1px #ececec;
+	margin-bottom: 100px;
+	margin-left: 210px;
+	padding: 30px;
+	padding-bottom: 30px;
+	font-size: 12px;
+}
+.yan-goods-th-nav{
+	padding-bottom: 9px;
+	width: 908px;
+	border-bottom: solid 1px #ececec;
+}
+.yan-goods-th-nr{
+	width: 908px;
+	padding-left: 36px;
+}
+.yan-goods-th-nr1{
+    width: 908px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+    float: left;
+}
+.yan-goods-th-nr1 .nar-1{
+	background: url(../images_new/yan-hh.png) no-repeat;
+	width: 82px;
+	height: 28px;
+	display: inline-block;
+	line-height: 28px;
+	text-align: center;
+}
+.yan-goods-th-nr2{
+	margin-top: 20px;
+    float: left;
+    width: 908px;	
+}
+.yan-goods-th-nr2 .imgbox{
+	margin-top:20px;
+}
+.yan-goods-th-nr0{
+    width: 908px;
+    float: left;
+}
+.yan-goods-th-nr0 ul{
+	width: 908px;
+	float: left;
+	margin-top:20px;
+}
+.goods-pic-small1 img{
+    width: 100px;
+    height: 100px;
+    margin-right: 12px;
+}
+.goods-pic-small1 a{
+	float:left;
+}
+.yan-goods-th-nr0 ul li{
+	float:left;
+	width:300px;
+}
+.yan-goods-th-nr3{
+	margin-top: 20px;
+}
+.yan-goods-th1{
+    width: 908px;
+    float: left;
+}
+.yan-goods-th-nr2 .filebox label{
+	width:100px;
+	height:100px;
+    background-image: url(../images_new/yan-jiahao.png);
+    background-repeat: no-repeat;
+    background-position: center center;	
+    border: dashed 1px #ccc;
+    cursor:pointer;
+}
+.yan-goods-th-nr2 .filebox span{
+    display: inline-block;
+    position: relative;
+    top: 82px;
+    left: 12px;
+}
+.yan-goods-th1 .yan_btn:hover{
+	color:#fff;
+}
+.yan-goods-th-nr2 .filebox label #myBlogImage1{
+	width:100px;
+	height:100px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+}
+.taContent{
+	outline: none;width: 498px;height: 83px;padding-left: 8px;resize: none;line-height: 16px;padding: 10px;
+}
+.yan-goods-th1 .yan_btn{
+	margin-top: 20px;width: 73px;height: 26px;background: #e50514;border: solid 1px #e50514;outline: none;color:#fff;
+}
+#myBlogImage1{
+	width:100px;
+	height:100px;
+}
+#cancelQuantity{
+	text-align:center;
+	width: 30px !important;	
+}
+.opt1{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: solid 1px #ccc;		
+}
+.opt{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: solid 1px #ccc;	
+}

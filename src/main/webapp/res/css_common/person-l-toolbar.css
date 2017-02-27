@@ -1,0 +1,129 @@
+.person-box{
+	width: 1190px;
+	margin-right: auto;
+	margin-left: auto;
+}#person-l-toolbar {
+	float: left;
+	width: 180px;
+	border: 1px solid #ededed;
+	overflow: hidden;
+	font-family: "Microsoft YaHei";
+}
+#person-l-toolbar > ul.first li{
+	font-size: 14px;
+}#person-l-toolbar > ul.first a{
+	font-weight: 700;
+	color: #333;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ededed;
+	display: block;
+	line-height: 55px;
+	height: 55px;
+	padding-right: 17px;
+	padding-left: 17px;
+	vertical-align: middle;
+	margin-top: -1px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ededed;
+}
+#person-l-toolbar > ul.first a:hover{
+	cursor: pointer;
+}
+#person-l-toolbar > ul.first a i:after{
+	background-image: url(../images_new/ioc--down.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	height: 4px;
+	content:open-quote;
+	overflow:hidden;
+	margin-top:24px;
+	width: 8px;
+}
+#person-l-toolbar > ul.first a.active i:after{
+	background-image: url(../images_new/ioc--up.png);
+}
+#person-l-toolbar ul.second{
+	padding-top: 9px;
+	padding-bottom: 9px;
+	overflow:hidden;
+}
+#person-l-toolbar .dot-thr{
+	    display: block;
+    padding-left: 30px;
+    position: relative;
+    top: -15px;
+}
+#person-l-toolbar .dot-thr.active{
+	display:none;
+}
+#person-l-toolbar ul.second li{
+}
+#person-l-toolbar ul.second a{
+
+	display: block;
+	height: auto;
+	line-height:16px;
+	padding:6px 16px;
+	font-weight: normal;
+	border: none;
+	background: url(../images_new/icon--nav-spot.png) no-repeat left 13px ;
+	margin-left: 17px;
+	color:#808080;
+	font-size:12px;
+}
+#person-l-toolbar ul.second a:hover,#person-l-toolbar ul.second .selected a{
+	background-image: url(../images_new/icon--nav-spot-h.png);
+	color: #e50514;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

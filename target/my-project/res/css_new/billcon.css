@@ -1,0 +1,38 @@
+.right-content{border:none!important;}
+.userhead{margin-bottom:10px;padding:20px;}
+.tit{margin-bottom:20px;font-size: 14px;font-weight: 700;}
+.tit span{font-size:14px;margin-right: 50px;padding:0 10px;display:inline-block;height:30px;text-align: center;line-height: 30px;cursor: pointer;}
+.tit span:hover,.tit .active{color: #f40e25;border-bottom: 3px solid #d00815;}
+.p15{padding:0 15px;}
+.fl{float: left;}
+.fr{float: right;}
+.br{border-right: 1px solid #ececec;}
+.border{border:1px solid #ececec;}
+/*总览模块*/
+.pandect h3{padding-left:20px;line-height: 40px;}
+#dataListDiv dl dd {
+    float: left;
+    padding: 0 35px;
+    width: 417px;
+    height: 50px;
+    line-height: 60px;
+    border-bottom: 1px solid #ececec;
+}
+#dataListDiv dl dd span{width: 250px;}
+.billOverview dl {
+    height: 208px;
+    border-top: none;
+}
+/*账单明细*/
+.billDetail{margin-top: 20px;}
+.billDetail table{border-top: 1px solid #ececec;}
+.billDetail table td,.billDetail table th{width: 195px;text-align: center;line-height: 50px;border-bottom: 1px solid #ececec;}
+.billDetail table th{width: 195px;background: #f9f9f9; }
+.billDetail table .th400{width: 400px;background: #f9f9f9;border-left:solid 1px #ececec;}
+.billDetail table .th200{width: 200px;background: #f9f9f9;border-left:solid 1px #ececec;}
+.billDetail table .th100{width: 100px;background: #f9f9f9;border-left:solid 1px #ececec;}
+.billDetail table .td400{width: 400px;text-align: left; border-left:solid 1px #ececec;}
+.billDetail table .td200{width: 200px;border-left:solid 1px #ececec;}
+.billDetail table .td100{width: 100px;border-left:solid 1px #ececec;}
+/*qiwanshu 改*/
+#selectChange{width: 145px; height: 30px;}

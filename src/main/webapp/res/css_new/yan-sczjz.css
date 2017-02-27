@@ -1,0 +1,113 @@
+.yan-person-box{
+	width: 100%;
+}
+.yan-password-recover{
+	width: 1188px;
+	border: solid 1px #d7d8dd;
+	margin: 54px auto;
+	height: 527px;
+}
+.yan-password-recover-nav{
+	width: 552px;
+	margin: 0 auto;
+	margin-top: 40px;
+	color: #e50514;
+}
+.yan-password-recover-sj{
+	width: 300px;
+	margin: 0 auto;
+}
+.yan-password-recover-sj input{
+	outline: none;
+	padding-left: 6px;
+	margin-left: 10px;
+	float: left;
+}
+.yan-password-recover-sj span{
+	width: 64px;
+	text-align: right;
+	display: inline-block;
+	font-weight: 700;
+	float: left;	
+}
+
+.yan-password-recover-hq{
+	margin-top: 14px;
+	display: block;
+	width: 300px;
+	float: left;
+}
+.yan-opt1{
+	width: 200px;
+	height: 30px;
+	border: none;
+	background: url("../images_new/yan-input.png") no-repeat;
+}
+.yan-opt2{
+	width: 100px;
+	height: 30px;
+	background: url("../images_new/yan-input1.png") no-repeat !important;
+	border: none;
+}
+.yan-password-recover-hq label{
+	font-weight: 700;
+	line-height: 21px;
+	float: left;
+}
+.yan-password-recover-sxy{
+	margin-top: 56px;
+	margin-bottom: 100px;
+}
+.yan-password-recover-sxy button{
+	width: 110px;
+	height: 28px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+#yan-btn{
+	width: 90px;
+	height: 30px;
+	background: #f42533;
+	margin-left: 0px;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	float: left;
+	cursor: pointer;
+}
+
+#dcType{
+	display: none;
+}
+#yan-i{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	margin-left: 20px;
+	margin-right: 8px;
+	margin-top: 3px;
+	float: left;
+	background: url("../images_new/yan-i.png") no-repeat;
+}
+#yan-i1{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 8px;
+	margin-top: 3px;
+	background: url("../images_new/yan-i.png") no-repeat 0px -15px;
+}
+.yan-i1{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	background: url("../images_new/yan-i1.png") no-repeat !important;
+}
+.pre_btn {margin-left: 34px;border: solid 1px #b2b2b2;background: #f9f9f9;}
+.submit_btn {margin-left: 20px;background: #f42533;color: white;border: solid 1px #ed3e4a;}
+
+
+

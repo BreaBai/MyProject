@@ -1,0 +1,213 @@
+/*css reset*/
+
+.path>div{color:#b3b3b3;}
+#person-top {
+    background-image: url(../images_new/person-top-bg.png);
+    background-repeat: repeat-x;
+    background-position: left center;
+    height: 84px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#person-top > .box {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#person-top > .box > div {
+    display: inline-block;
+    float: left;
+}
+#person-top > .box > div .logo {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#person-top > .box > div .title {
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    
+}
+#person-top>.box>div .title h3 {
+    font-size: 24px;
+}
+#person-top>.box>div .title p {
+    font-size: 12px;
+    border: 1px solid #e38488;
+    margin:30px 0 0 11px;
+    padding:5px 0;
+    padding-left:6px;padding-right:5px;
+    color: #fff;
+    line-height:12px;
+    text-align:center;
+}
+#person-top > .box > div.mid {
+    font-size: 14px;
+    line-height: 84px;
+    margin-left: 100px;
+}
+#person-top > .box > div.mid span.tab-sub {
+    position: relative;
+    z-index: 3;
+    left: 3px;
+    top: -1px;
+    height: 15px;
+    padding: 1px 8px;
+    overflow: hidden;
+    color: #FFF;
+    font: 12px/12px verdana;
+    color: #e20514;
+    text-align: center;
+    min-width: 11px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#person-top > .box > div.mid li {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#person-top > .box > div.mid li a {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+#person-top > .box > div.mid li.active a{
+    color:#fff;
+}
+#person-top > .box > div.mid li.supervisor a.normal{color:#fffeff;}
+#person-top > .box > div.right {
+    float: right;
+    width: 350px;
+    padding-top: 25px;
+}
+#person-top > .box > div.right>div{margin-left:10px;}
+#person-top > .box > div.right > .form-group {
+    width: 190px;
+    float: left;
+}
+.search-box{width: 190px;
+    position: relative;float:right;}
+#person-top div.right .search-box .text {
+    border-right: none;
+    border-radius: 0;
+    height: 12px;
+    width: 160px;
+    border: 0;
+    padding:10px 15px!important;
+    font-family: "微软雅黑";
+}
+
+#person-top div.right .search-box .pngFix{
+    border-radius: 0;
+    background-color: #FFF;
+    border-left: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    background: url(../images_new/icon--search.png) no-repeat 2px center;
+    border: 0;
+}
+.input-group{position: relative;}
+#person-top div.right .dorpdown {
+    position: relative;
+    float: right;
+    z-index: 11;
+    height: 36px;
+}
+#person-top div.right .cw-icon {
+       width: 70px;
+    height: 32px;
+    border: 0;
+    padding: 0 28px 0 36px;
+    background: #E6E6E6;
+    text-align: center;
+    line-height: 33px;
+}
+#person-top div.right .cw-icon {
+    position: relative;
+    cursor: default;
+    zoom: 1;
+}
+#person-top div.right .ci-left {
+    top: 0;
+    left: 8px;
+    width: 20px;
+    height: 30px;
+    background-image: url(../images_new/ico--cart.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#person-top div.right .cw-icon i {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+#person-top div.right .ci-right {
+    top: 10px;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    overflow: hidden;
+    font: 400 13px/13px simsun;
+    color: #999;
+}
+#person-top div.right .ci-count {
+    position: absolute;
+    top: -6px;
+    left: 100px;
+    display: inline-block;
+    padding: 2px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #c81623;
+    border-radius: 7px 7px 7px 0;
+    min-width: 16px;
+    text-align: center;
+}
+#person-top div.right .dorpdown .dorpdown-layer {
+    display: none;
+    position: absolute;
+}
+/*#person-top div.right .hover .cw-icon, */
+/*#person-top div.right .dorpdown:hover .dorpdown-layer, */
+/*#person-top div.right .dorpdown:hover .cw-icon, */
+/*#person-top div.right .dorpdown.hover .dorpdown-layer  {*/
+    /*background: #fff;*/
+    /*!*border: 1px solid #ddd;*!*/
+    /*box-shadow: 0 0 5px rgba(0,0,0,.2);*/
+/*}*/
+#person-top div.right .dorpdown:hover .dorpdown-layer, 
+#person-top div.right .dorpdown.hover .dorpdown-layer {
+    display: block;
+    right: 0;
+    _right: -1px;
+    width: 308px;
+}
+#person-top div.right .dorpdown:hover .spacer,
+#person-top div.right .dorpdown.hover .spacer {
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 135px;
+    height: 12px;
+    background: #fff;
+}
+#person-top div.right .dorpdown .prompt {
+    padding: 10px 15px;
+}
+#person-top div.right .dorpdown .nogoods {
+    padding-left: 30px;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+input[type="submit"]{box-shadow: none;}
+
+

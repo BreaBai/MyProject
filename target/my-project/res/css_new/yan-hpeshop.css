@@ -1,0 +1,67 @@
+.hpeshop{
+	width: 1190px;
+	border: solid 1px #ececec;
+	margin: 54px auto;
+}
+.hpeshop-nav{
+	width: 800px;
+	height: 25px;
+	margin:0 auto;
+	margin-top: 60px;
+	border-bottom: solid 1px #ececec;
+}
+.hpeshop-nav span{
+	padding-bottom: 4px;
+	border-bottom: solid 3px #e40613;
+}
+.member_type{
+	width: 172px;
+	height: 234px;
+	opacity: 0;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	margin: 0 !important;
+}
+.hpeshop-xq{
+	width: 800px;
+	display: flex;
+	margin:0 auto;
+	margin-top: 60px;
+	padding-bottom: 66px;	
+}
+.hpeshop-xq1{
+	width: 174px;
+	height: 236px;
+	padding: 1px;
+	border: solid 1px #ececec;
+	float: left;
+	background:url(../images_new/shouj.png) 0px 0px;
+	cursor: pointer;
+}
+.hpeshop-xq2{
+	width: 174px;
+	height: 236px;
+	margin-left: 138px;
+	border: solid 1px #ececec;
+	padding: 1px;
+	float: left;
+	background:url(../images_new/shouj1.png) 0px 0px;
+	cursor: pointer;
+}
+.hpeshop-xq3{
+	width: 174px;
+	padding: 1px;
+	height: 236px;
+	margin-left: 138px;
+	border: solid 1px #ececec;
+	float: left;
+	background:url(../images_new/shouj2.png) 0px 0px;
+	cursor: pointer;
+}
+#submitBtn{
+	width: 72px;
+	height: 28px;
+	float: right;
+	margin-top: 30px;
+}

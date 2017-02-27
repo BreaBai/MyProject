@@ -1,0 +1,125 @@
+.yan_bottom{
+	margin-top: 30px;
+	width: 100%;
+	/*border-top: solid 1px #e6e6e6;*/
+	background: url("../images_new/bj.png") repeat-x ;
+}
+.yan_bottom_top_1{
+	width: 1190px;
+	height: 222px;
+	margin: 0 auto;
+}
+.yan_bottom_top_2{
+	width: 196px;
+	float: left;
+	list-style: none;
+	height: 14px;
+	font-size: 14px;
+	color:#4d4d4d;
+	line-height: 14px;
+	margin-top: 26px;
+	border-left: solid 2px #ed010b;
+}
+.yan_bottom_top_2 a{
+	color: #000;
+	text-decoration: none;
+}
+
+.yan_bottom_top_3{
+	list-style: none;
+	margin: auto;
+	padding-top: 22px;
+}
+.yan_bottom_top_3 li{
+	height: 12px;
+	display: block;
+	padding-bottom: 12px;
+}
+.yan_bottom_top_3 li a{
+	color: #818181;
+	font-size: 12px;
+	text-decoration: none;
+}
+.yan_bottom_top a:hover{
+	color: black;
+	text-decoration: none;
+}
+.yan_bottom_bottom{
+	text-align: center;
+	width: 1190px;
+	margin: 0 auto;
+}
+.yan_bottom_bottom ul{
+	display: inline-block;
+	height: 12px;
+	margin-top: 13px;
+}
+.yan_bottom_bottom_1{
+	/*float: left;*/
+	display: inline-block;
+	list-style: none;
+	font-size: 12px;
+	height: 12px;
+	line-height: 12px;
+	padding-right: 23px;
+	padding-left: 23px;
+	border-left: solid 1px #fcc9c8;
+	text-align: center;
+}
+.yan_bottom_bottom_2{
+	/*float: left;*/
+	display: inline-block;
+	list-style: none;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 0px 23px;
+}
+.yan_bottom_bottom a{
+	text-decoration: none;
+	color: #fcc9c8;
+}
+.yan_bottom_bottom a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+/*.yan_bottom0{*/
+/*width: 100%;*/
+/*padding-top: 11px;*/
+
+/*!*ff2700*!*/
+/*}*/
+/*.yan_bottom_zh{*/
+/*text-align: center;*/
+/*width: 1190px;*/
+/*margin: 0 auto;*/
+/*margin-top: 10px;*/
+/*padding-top: 10px;*/
+
+/*color: #ff7a7f;*/
+/*}*/
+.last_footer{text-align: center}
+.yan_bottom0{
+	width: 100%;
+	padding-top: 11px;
+	height:79px;
+	background-color: #ed010b;
+	/*ff2700*/
+}
+.yan_bottom_zh{
+	text-align: center;
+	width: 1190px;
+	margin: 0 auto;
+	padding-top: 10px;
+	margin-top:10px;
+	color: #ff7a7f;
+	/*padding-bottom: 12px;*/
+	position: relative;
+}
+
+.yan_bottom_bottom a>img{
+	float: right;margin-top: -68px;
+}
+.bottom-box{width:1190px;margin-left:auto;margin-right:auto;}
+.wireless{position:relative;}
+.wireless img{position:absolute; top:-165px;left:-127px;display: none;}
+.wireless:hover img{display: block}

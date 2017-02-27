@@ -1,0 +1,16 @@
+/*总览模块*/
+.wrap h3{border-bottom: 1px solid #ececec;}
+.wrap h3 span{border-bottom: 2px solid #f40e25;font-size: 16px;font-weight: 700;}
+.pandect li{margin:20px 20px 0 0;padding:20px;float: left;width: 244px;height: 148px;color: #808080;border:1px solid #c8ba8b;}
+.pandect li p{margin-top:50px;padding-left:50px;font-size: 36px;font-weight: 700;}
+.pandect li span{font-size: 14px;font-weight: 500;}
+.pandect li i{margin-right:6px;display: inline-block;width: 21px;height: 20px;background-repeat: no-repeat;}
+.icon1{background-image: url(../images_new/icon1.jpg);}
+.icon2{background-image: url(../images_new/icon2.jpg);}
+.icon3{background-image: url(../images_new/icon3.jpg);}
+.icon4{background-image: url(../images_new/icon4.jpg);}
+.icon5{background-image: url(../images_new/icon5.jpg);}
+
+/*qiwanshu 改*/
+.icon1,.icon2,.icon3,.icon4,.icon5{position: relative; top: 3px;}
+.pandect li p{padding-left: 0;text-align: center;}

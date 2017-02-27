@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<%--<ul class="">--%>
+    <%--<li class="yan_top_one_dl" id="user-box"><a id="user-login" href="#">你好，请登录 </a></li>--%>
+    <%--<li class="yan_top_one_li" id="reg"><a class="sign-up" id="register" href="#">注册 </a></li>--%>
+    <%--<li class="yan_top_one_li" id="myaccount"><a href="#"> 我的账户 </a></li>--%>
+
+<%--</ul>--%>
+<h2>Hello World! 你好，请登录</h2>
+
+<div class="">
+
+    ${userInfo.userId}
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+
+    <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" placeholder="Username">
+    </div>
+
+</div>
+</body>
+</html>
+
+
+
+ALTER TABLE `my_project`.`user_info`
+ADD COLUMN `use_name` VARCHAR(45) NULL AFTER `id`,
+ADD COLUMN `use_password` VARCHAR(45) NULL AFTER `use_name`;
+
+INSERT INTO `my_project`.`user_info` (`id`, `user_name`, `user_password`) VALUES ('2', '2', '2');
+INSERT INTO `my_project`.`user_info` (`user_name`, `user_password`) VALUES ('6', '6');
