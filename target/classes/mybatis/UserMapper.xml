@@ -3,8 +3,8 @@
 <mapper namespace="com.hpe.my.module.dao.UserInfoDao">
 	<resultMap id="BaseResultMap" type="com.hpe.my.model.entiy.UserInfo" >
         <id column="id" property="userId" jdbcType="INTEGER"  />
-        <!--<id column="user_name" property="userName" jdbcType="VARCHAR" />-->
-        <!--<id column="user_password" property="userPassword" jdbcType="VARCHAR" />-->
+        <id column="user_name" property="userName" jdbcType="VARCHAR" />
+        <id column="user_password" property="userPassword" jdbcType="VARCHAR" />
     </resultMap>
     
 
