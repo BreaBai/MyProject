@@ -13,6 +13,7 @@
     <!-- 扫描com.hf包里下的所有class文件，配置注解的类全都装入容器中进行管理 -->
     <context:component-scan base-package="com.hpe.my" />
     <!-- 添加注解驱动 -->
+    <context:annotation-config />
     <mvc:annotation-driven />
     <!-- 引入jdbc配置文件 -->
     <context:property-placeholder location="classpath:application.properties" />

@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
+
+
+
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +9,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>SB Admin</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="/res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../res/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/res/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Custom CSS -->
+
+    <!-- Morris Charts CSS -->
+    <link href="/res/vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,8 +37,19 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- jQuery -->
+    <script src="/res/vendor/jquery/jquery.min.js"></script>
 
-</head>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/res/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/res/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/res/dist/js/sb-admin-2.js"></script>
+    <script type="text/javascript" src="/res/js/layer/layer.js"></script>
+
 
 <body>
 
@@ -65,23 +84,10 @@
     </div>
 </div>
 
-<!-- jQuery -->
-<script src="../res/vendor/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="../res/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Metis Menu Plugin JavaScript -->
-<script src="../res/vendor/metisMenu/metisMenu.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="../res/dist/js/sb-admin-2.js"></script>
-<script type="text/javascript" src="../res/js/layer/layer.js"></script>
 
 
 </body>
-
-</html>
 <#--登录事件-->
 <script>
 
@@ -99,17 +105,18 @@
             contentType:"application/x-www-form-urlencoded; charset=utf-8",
 
             success: function(data){
+                $("body").html(data);
 
-                alert(data);
-//                $(".container").html(data);
-
-
-                if (data.success) {
-                    layer.msg("操作成功",{icon:1});
-                    window.location = "/loginSuccess";
-                } else {
-                    layer.msg('操作失败',{icon:2});
-                }
+//                alert(data.success);
+////                $(".container").html(data);
+//
+//
+//                if (data.success) {
+//                    layer.msg("操作成功",{icon:1});
+//                    window.location.href = "/loginSuccess";
+//                } else {
+//                    layer.msg('操作失败',{icon:2});
+//                }
 //                if(data.isSuccess){
 //                    window.location.href="/loginSuccess";
 //                }

@@ -29,31 +29,31 @@ public class UserController{
 //        model.addAttribute("userInfo",userInfo);
         return "/login";
     }
-    @RequestMapping("loginSubmit")
-    public @ResponseBody Map<String,Object> loginSubmit(Model model,String name,String passWord) {
-        Map<String,Object> map=new HashMap<String,Object>();
-
-        if(isUser(name,passWord)){
-            model.addAttribute("isSuccess","true");
-            map.put("success",true);
-            return map;
-        }else{
-            map.put("success",false);
-            return map;
-        }
-    }
-
-
 //    @RequestMapping("loginSubmit")
-//    public String loginSubmit(Model model,String name,String passWord) {
+//    public @ResponseBody Map<String,Object> loginSubmit(Model model,String name,String passWord) {
+//        Map<String,Object> map=new HashMap<String,Object>();
 //
 //        if(isUser(name,passWord)){
 //            model.addAttribute("isSuccess","true");
-//            return "/loginSuccess";
+//            map.put("success",true);
+//            return map;
 //        }else{
-//            return "/error";
+//            map.put("success",false);
+//            return map;
 //        }
 //    }
+
+
+    @RequestMapping("loginSubmit")
+    public String loginSubmit(Model model,String name,String passWord) {
+
+        if(isUser(name,passWord)){
+            model.addAttribute("isSuccess","true");
+            return "/loginSuccess";
+        }else{
+            return "/error";
+        }
+    }
 
     private boolean isUser(String name,String passWord){
         List<UserInfo> userInfo=userInfoDao.findAllUser();

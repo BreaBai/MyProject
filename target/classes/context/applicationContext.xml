@@ -13,6 +13,7 @@
     <!-- 扫描com.hf包里下的所有class文件，配置注解的类全都装入容器中进行管理 -->
     <context:component-scan base-package="com.hpe.my" />
     <!-- 添加注解驱动 -->
+    <context:annotation-config />
     <mvc:annotation-driven />
     <!-- 引入jdbc配置文件 -->
     <context:property-placeholder location="classpath:application.properties" />
@@ -49,8 +50,8 @@
 
     <!-- MapperFactoryBean 创建的代理类实现了IUserDAO接口,并且注入到应用程序中，这样不用写实现类 -->
     <bean id="userDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="com.hpe.my.module.dao.UserInfoDao" />
-        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
-    </bean>
+    <property name="mapperInterface" value="com.hpe.my.module.dao.UserInfoDao" />
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+</bean>
 
 </beans>
